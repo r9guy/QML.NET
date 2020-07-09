@@ -1,6 +1,6 @@
 import QtQuick 2.6
 import QtQuick.Controls 2.1
-//import Features 1.0
+import Features 1.0
 
 ScrollablePage {
 
@@ -63,11 +63,11 @@ ScrollablePage {
             id: message
         }
         
-//        CollectionsModel {
-//            id: collectionsModel
-//            Component.onCompleted: {
-//                repeater.model = Net.toListModel(collectionsModel.contacts)
-//            }
-//        }
+        CollectionsModel {
+            id: collectionsModel
+            Component.onCompleted: {
+                repeater.model = Net.toListModel(collectionsModel.contacts)
+            }
+        }
     }
 }

@@ -1,6 +1,6 @@
 import QtQuick 2.6
 import QtQuick.Controls 2.1
-//import Features 1.0
+import Features 1.0
 
 ScrollablePage {
 
@@ -42,8 +42,8 @@ ScrollablePage {
             id: message
         }
         
-//        DynamicModel {
-//            id: model
-//        }
+        DynamicModel {
+            id: model
+        }
     }
 }
